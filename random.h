@@ -5,13 +5,15 @@
 */
 
 //  Return random character
+#include <stdlib.h>
+
 char randchar() {
 
     /*  
-        Set character to random number between 65 and 90, the ASCII range for lowercase letters a-z
+        Set character to random number between 26 and 65, the ASCII range for uppercase letters A-Z
         using following equation :
     
-        rand() % (MAX + 1 - MIN) + MIN
+        RANDOM NUMBER % (MAX + 1 - MIN) + MIN
     */
 
     char c = rand() % 26 + 65;

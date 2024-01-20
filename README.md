@@ -8,4 +8,8 @@ In this lab, you will be learning about git and some of the features of git and 
 The attached simple source file print_random.c is to be modified by you to include a function that implements the randchar() function.
 See the instructions in the GitHW1 file
 
-How to run:
+How to run on Temple CIS server:
+git clone "https://github.com/tlheyward/3207-Lab-Introduction_S24"
+cd 3207-Lab-Introduction_S24/
+gcc random.c print_random.c -o pr -Wall -Werror
+./pr
